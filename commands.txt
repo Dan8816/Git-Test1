@@ -1,0 +1,134 @@
+Administrator@E7440-111816 MINGW64 /
+$ cd C:\Users\Administrator\Desktop
+bash: cd: C:UsersAdministratorDesktop: No such file or directory
+
+Administrator@E7440-111816 MINGW64 /
+$ cd
+
+Administrator@E7440-111816 MINGW64 ~
+$ /c/Users/Administrator/Desktop
+bash: /c/Users/Administrator/Desktop: Is a directory
+
+Administrator@E7440-111816 MINGW64 ~
+$ cd /c/Users/Administrator/Desktop
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ cd /
+
+Administrator@E7440-111816 MINGW64 /
+$ pwd
+/
+
+Administrator@E7440-111816 MINGW64 /
+$ clear
+
+Administrator@E7440-111816 MINGW64 /
+$ pwd
+/
+
+Administrator@E7440-111816 MINGW64 /
+$ ls
+bin/  etc/           LICENSE.txt  ReleaseNotes.html  unins000.exe*
+cmd/  git-bash.exe*  mingw64/     tmp/               unins000.msg
+dev/  git-cmd.exe*   proc/        unins000.dat       usr/
+
+Administrator@E7440-111816 MINGW64 /
+$ cd /c/Users/Administrator/Desktop
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ pwd
+/c/Users/Administrator/Desktop
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ ls
+'~$SQL Countries.docx'                   'netscan - Shortcut.lnk'*
+'~$t Notes.docx'                         'Networking Tools'/
+'Amazon Music.lnk'*                      'New Microsoft Excel Worksheet.xlsx'
+ Atom.lnk*                               'New Microsoft Word Document.docx'
+'Dans_Git_Folder - Shortcut.lnk'*         oasis.exe*
+ desktop.ini                             'Private Internet Access.lnk'*
+'Destruction Tools'/                      PuTTY.lnk*
+'Git Notes.docx'                         'Random Notes.txt'
+'GitHub Desktop.lnk'*                    'Recovery Tools'/
+'Google Chrome Canary.lnk'*              'Start Tor Browser.lnk'*
+'HP AIO'/                                'Tor Browser'/
+'HP Photo Creations.lnk'*                 UniFi.lnk*
+'Imaging Tools'/                         'VNC Listener.lnk'*
+ Mattermost.lnk*                         'wwwroot - Shortcut.lnk'*
+'Microsoft Office 2013 - Shortcut.lnk'*
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ mkdir test
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ cd test
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ touch index.html
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ touch style.css
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ cd..
+bash: cd..: command not found
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ pwd
+/c/Users/Administrator/Desktop/test
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ cd ..
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ pwd
+/c/Users/Administrator/Desktop
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ mkdir destination
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ mv test/index_2.html destination
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ rm test/style.css
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ cd test
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ cd..
+bash: cd..: command not found
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/test
+$ cd ..
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ cd destination
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+Administrator@E7440-111816 MINGW64 ~/Desktop/destination
+$ cd ..
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ re -rf destination
+bash: re: command not found
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$ rm -rf destination
+
+Administrator@E7440-111816 MINGW64 ~/Desktop
+$
